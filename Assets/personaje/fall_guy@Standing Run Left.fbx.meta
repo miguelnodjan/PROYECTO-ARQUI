@@ -1,0 +1,4299 @@
+fileFormatVersion: 2
+guid: 9c3721b5f9b8b114497bf3942924e79b
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      74: -203655887218126122
+    second: Standing Run Left
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Standing Run Left
+      takeName: mixamo.com
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: mixamorig:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: fall_guy(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ACTOR
+      parentName: fall_guy(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GEO
+      parentName: ACTOR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_mesh
+      parentName: GEO
+      position: {x: -0, y: -0.0000043242326, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_eye_mesh
+      parentName: GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_eye_mesh
+      parentName: GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RIG
+      parentName: ACTOR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORIGIN_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: movable_scale_pivot_ctrl_offset
+      parentName: ORIGIN_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: movable_scale_pivot_ctrl
+      parentName: movable_scale_pivot_ctrl_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: zero_skin_offset
+      parentName: ORIGIN_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: position_ctrl_offset_global_scale
+      parentName: ORIGIN_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: position_ctrl_offset
+      parentName: position_ctrl_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: position_ctrl
+      parentName: position_ctrl_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: traj_ctrl_offset
+      parentName: position_ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: traj_ctrl
+      parentName: traj_ctrl_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fly_ctrl_offset
+      parentName: traj_ctrl
+      position: {x: -0, y: 4.3461533, z: 0.10791689}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fly_ctrl
+      parentName: fly_ctrl_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_ctrl_offset
+      parentName: fly_ctrl
+      position: {x: -0, y: -1.3925117, z: 0.027685234}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_ctrl
+      parentName: root_ctrl_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_ctrl_spine_01_ctrl_offset_parentConstraint_snapper
+      parentName: root_ctrl
+      position: {x: -0, y: 0.08004973, z: 0.03282278}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_ctrl_spine_01_ctrl_offset_scaleConstraint_snapper
+      parentName: root_ctrl
+      position: {x: -0, y: 0.08004973, z: 0.03282278}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_ctrl_spine_base_roll_offset_parentConstraint_snapper
+      parentName: root_ctrl
+      position: {x: -0, y: 0.08004973, z: 0.03282278}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_ctrl_spine_base_roll_offset_scaleConstraint_snapper
+      parentName: root_ctrl
+      position: {x: -0, y: 0.08004973, z: 0.03282278}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_ctrl_spine_base_ctrl_offset_parentConstraint_snapper
+      parentName: root_ctrl
+      position: {x: -0, y: 0.08004973, z: 0.03282278}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_ctrl_spine_base_ctrl_offset_scaleConstraint_snapper
+      parentName: root_ctrl
+      position: {x: -0, y: 0.08004973, z: 0.03282278}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_ctrl_spine_topLength_parentConstraint_snapper
+      parentName: root_ctrl
+      position: {x: -0, y: 1.6339128, z: 0.03282278}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_ctrl_spine_topLength_scaleConstraint_snapper
+      parentName: root_ctrl
+      position: {x: -0, y: 1.6339128, z: 0.03282278}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_ctrl_spine_baseLength_parentConstraint_snapper
+      parentName: root_ctrl
+      position: {x: -0, y: 0.08004973, z: 0.03282278}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_ctrl_spine_baseLength_scaleConstraint_snapper
+      parentName: root_ctrl
+      position: {x: -0, y: 0.08004973, z: 0.03282278}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_ctrl_l_leg_ankle_ik_ctrl_parentConstraint_snapper
+      parentName: root_ctrl
+      position: {x: -0.8689707, y: -2.3547559, z: -0.29861528}
+      rotation: {x: 0.7071068, y: 0.7071068, z: 2.0030707e-16, w: 2.0030707e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_ctrl_l_leg_ctrl_orientConstraint_snapper
+      parentName: root_ctrl
+      position: {x: -0.8689707, y: -1.7884071, z: -0.29861528}
+      rotation: {x: 0.7071068, y: 0.7071068, z: 2.0030707e-16, w: 2.0030707e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_ctrl_r_leg_ankle_ik_ctrl_parentConstraint_snapper
+      parentName: root_ctrl
+      position: {x: 0.8689707, y: -2.3547559, z: -0.29861528}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_ctrl_r_leg_ctrl_orientConstraint_snapper
+      parentName: root_ctrl
+      position: {x: 0.8689707, y: -1.7884071, z: -0.29861528}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_ctrl_l_arm_wrist_ik_ctrl_parentConstraint_snapper
+      parentName: root_ctrl
+      position: {x: -5.635225, y: 2.8128037, z: 0.30092436}
+      rotation: {x: 0.00037997134, y: 0.08286559, z: 0.008449599, w: 0.9965249}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_ctrl_l_arm_ctrl_orientConstraint_snapper
+      parentName: root_ctrl
+      position: {x: -2.440046, y: 2.8673692, z: -0.13958132}
+      rotation: {x: 0.0005405402, y: 0.06390542, z: 0.008440848, w: 0.9979201}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_ctrl_r_arm_wrist_ik_ctrl_parentConstraint_snapper
+      parentName: root_ctrl
+      position: {x: 5.635225, y: 2.8128037, z: 0.30092436}
+      rotation: {x: 0.9965249, y: -0.008449599, z: 0.08286559, w: -0.00037997134}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_ctrl_r_arm_ctrl_orientConstraint_snapper
+      parentName: root_ctrl
+      position: {x: 2.440046, y: 2.8673692, z: -0.13958132}
+      rotation: {x: 0.99792016, y: -0.008440847, z: 0.063905425, w: -0.0005405401}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fly_ctrl_l_leg_ankle_ik_ctrl_parentConstraint_snapper
+      parentName: fly_ctrl
+      position: {x: -0.8689707, y: -3.7472677, z: -0.27093005}
+      rotation: {x: 0.7071068, y: 0.7071068, z: 2.0030707e-16, w: 2.0030707e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fly_ctrl_l_leg_pv_ctrl_parentConstraint_snapper
+      parentName: fly_ctrl
+      position: {x: -0.8689707, y: -3.6651294, z: 1.0859447}
+      rotation: {x: 0.7070226, y: 0.7070226, z: -0.0109125255, w: 0.0109125255}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fly_ctrl_r_leg_ankle_ik_ctrl_parentConstraint_snapper
+      parentName: fly_ctrl
+      position: {x: 0.8689707, y: -3.7472677, z: -0.27093005}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fly_ctrl_r_leg_pv_ctrl_parentConstraint_snapper
+      parentName: fly_ctrl
+      position: {x: 0.8689707, y: -3.6651294, z: 1.0859447}
+      rotation: {x: -0.0109125255, y: -0.0109125255, z: -0.7070226, w: 0.7070226}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fly_ctrl_l_arm_wrist_ik_ctrl_parentConstraint_snapper
+      parentName: fly_ctrl
+      position: {x: -5.635225, y: 1.420292, z: 0.32860962}
+      rotation: {x: 0.00037997134, y: 0.08286559, z: 0.008449599, w: 0.9965249}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fly_ctrl_l_arm_pv_ctrl_parentConstraint_snapper
+      parentName: fly_ctrl
+      position: {x: -4.6858277, y: 1.4402689, z: -1.5462973}
+      rotation: {x: -0.00019718513, y: 0.15063672, z: 0.008455839, w: 0.98855305}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fly_ctrl_r_arm_wrist_ik_ctrl_parentConstraint_snapper
+      parentName: fly_ctrl
+      position: {x: 5.635225, y: 1.420292, z: 0.32860962}
+      rotation: {x: 0.9965249, y: -0.008449599, z: 0.08286559, w: -0.00037997134}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fly_ctrl_r_arm_pv_ctrl_parentConstraint_snapper
+      parentName: fly_ctrl
+      position: {x: 4.6858277, y: 1.4402689, z: -1.5462973}
+      rotation: {x: 0.98855305, y: -0.008455839, z: 0.15063672, w: 0.00019718513}
+      scale: {x: 1, y: 1, z: 1}
+    - name: traj_ctrl_l_leg_ankle_ik_ctrl_parentConstraint_snapper
+      parentName: traj_ctrl
+      position: {x: -0.8689707, y: 0.5988854, z: -0.16301315}
+      rotation: {x: 0.7071068, y: 0.7071068, z: 2.0030707e-16, w: 2.0030707e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: traj_ctrl_l_leg_pv_ctrl_parentConstraint_snapper
+      parentName: traj_ctrl
+      position: {x: -0.8689707, y: 0.6810237, z: 1.1938615}
+      rotation: {x: 0.7070226, y: 0.7070226, z: -0.0109125255, w: 0.0109125255}
+      scale: {x: 1, y: 1, z: 1}
+    - name: traj_ctrl_l_leg_ctrl_orientConstraint_snapper
+      parentName: traj_ctrl
+      position: {x: -0.8689707, y: 1.1652342, z: -0.16301315}
+      rotation: {x: 0.7071068, y: 0.7071068, z: 2.0030707e-16, w: 2.0030707e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: traj_ctrl_r_leg_ankle_ik_ctrl_parentConstraint_snapper
+      parentName: traj_ctrl
+      position: {x: 0.8689707, y: 0.5988854, z: -0.16301315}
+      rotation: {x: -8.659561e-17, y: 8.7157646e-33, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: traj_ctrl_r_leg_pv_ctrl_parentConstraint_snapper
+      parentName: traj_ctrl
+      position: {x: 0.8689707, y: 0.6810237, z: 1.1938615}
+      rotation: {x: -0.0109125255, y: -0.0109125255, z: -0.7070226, w: 0.7070226}
+      scale: {x: 1, y: 1, z: 1}
+    - name: traj_ctrl_r_leg_ctrl_orientConstraint_snapper
+      parentName: traj_ctrl
+      position: {x: 0.8689707, y: 1.1652342, z: -0.16301315}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: traj_ctrl_l_arm_wrist_ik_ctrl_parentConstraint_snapper
+      parentName: traj_ctrl
+      position: {x: -5.635225, y: 5.766445, z: 0.4365265}
+      rotation: {x: 0.00037997134, y: 0.08286559, z: 0.008449599, w: 0.9965249}
+      scale: {x: 1, y: 1, z: 1}
+    - name: traj_ctrl_l_arm_pv_ctrl_parentConstraint_snapper
+      parentName: traj_ctrl
+      position: {x: -4.6858277, y: 5.786422, z: -1.4383805}
+      rotation: {x: -0.00019718513, y: 0.15063672, z: 0.008455839, w: 0.98855305}
+      scale: {x: 1, y: 1, z: 1}
+    - name: traj_ctrl_l_arm_ctrl_orientConstraint_snapper
+      parentName: traj_ctrl
+      position: {x: -2.440046, y: 5.8210106, z: -0.0039791926}
+      rotation: {x: 0.0005405402, y: 0.06390542, z: 0.008440848, w: 0.9979201}
+      scale: {x: 1, y: 1, z: 1}
+    - name: traj_ctrl_r_arm_wrist_ik_ctrl_parentConstraint_snapper
+      parentName: traj_ctrl
+      position: {x: 5.635225, y: 5.766445, z: 0.4365265}
+      rotation: {x: 0.9965249, y: -0.008449599, z: 0.08286559, w: -0.00037997134}
+      scale: {x: 1, y: 1, z: 1}
+    - name: traj_ctrl_r_arm_pv_ctrl_parentConstraint_snapper
+      parentName: traj_ctrl
+      position: {x: 4.6858277, y: 5.786422, z: -1.4383805}
+      rotation: {x: 0.98855305, y: -0.008455839, z: 0.15063672, w: 0.00019718513}
+      scale: {x: 1, y: 1, z: 1}
+    - name: traj_ctrl_r_arm_ctrl_orientConstraint_snapper
+      parentName: traj_ctrl
+      position: {x: 2.440046, y: 5.8210106, z: -0.0039791926}
+      rotation: {x: 0.99792016, y: -0.008440847, z: 0.063905425, w: -0.0005405401}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_deformers_grp
+      parentName: spine_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_offset_ctrl_deformers_grp
+      parentName: spine_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_offset_ctrl_follicles_grp
+      parentName: spine_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_01_offset_ctrl_follicle
+      parentName: spine_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_01_offset_ctrl_follicle_spine_01_offset_ctrl_offset_parentConstraint_snapper
+      parentName: spine_01_offset_ctrl_follicle
+      position: {x: 0.011544538, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_01_offset_ctrl_follicle_spine_01_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: spine_01_offset_ctrl_follicle
+      position: {x: 0.011544538, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_02_offset_ctrl_follicle
+      parentName: spine_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_02_offset_ctrl_follicle_spine_02_offset_ctrl_offset_parentConstraint_snapper
+      parentName: spine_02_offset_ctrl_follicle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_02_offset_ctrl_follicle_spine_02_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: spine_02_offset_ctrl_follicle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_X_offset_ctrl_follicle
+      parentName: spine_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_X_offset_ctrl_follicle_spine_X_offset_ctrl_offset_parentConstraint_snapper
+      parentName: spine_X_offset_ctrl_follicle
+      position: {x: -0.010263408, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_X_offset_ctrl_follicle_spine_X_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: spine_X_offset_ctrl_follicle
+      position: {x: -0.010263408, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_01_offset_ctrl_offset_parentConstraint_snapper
+      parentName: spine_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_01_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: spine_01_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_01_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: spine_01_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_01_offset_ctrl_offset
+      parentName: spine_01_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_01_offset_ctrl_stretch_scale
+      parentName: spine_01_offset_ctrl_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_02_offset_ctrl_offset_parentConstraint_snapper
+      parentName: spine_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_02_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: spine_02_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_02_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: spine_02_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_02_offset_ctrl_offset
+      parentName: spine_02_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_02_offset_ctrl_stretch_scale
+      parentName: spine_02_offset_ctrl_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_X_offset_ctrl_offset_parentConstraint_snapper
+      parentName: spine_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_X_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: spine_X_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_X_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: spine_X_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_X_offset_ctrl_offset
+      parentName: spine_X_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_X_offset_ctrl_stretch_scale
+      parentName: spine_X_offset_ctrl_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_bend_deformers_grp
+      parentName: spine_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_bend_nurbsPlane
+      parentName: spine_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_bend_follicles_grp
+      parentName: spine_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_bend_ctrl_follicle
+      parentName: spine_bend_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_bend_ctrl_follicle_spine_bend_ctrl_offset_parentConstraint_snapper
+      parentName: spine_bend_ctrl_follicle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_bend_roll_follicle
+      parentName: spine_bend_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_bend_roll_follicle_spine_bend_roll_offset_parentConstraint_snapper
+      parentName: spine_bend_roll_follicle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_bend_ctrl_offset_parentConstraint_snapper
+      parentName: spine_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_bend_ctrl_offset
+      parentName: spine_bend_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_top_ctrl_offset_parentConstraint_snapper
+      parentName: spine_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_top_ctrl_offset
+      parentName: spine_top_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_base_ctrl_offset_parentConstraint_snapper
+      parentName: spine_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_base_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: spine_base_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_base_ctrl_offset_scaleConstraint_snapper
+      parentName: spine_base_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_base_ctrl_offset
+      parentName: spine_base_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_roll_deformers_grp
+      parentName: spine_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_roll_nurbsPlane
+      parentName: spine_roll_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_bend_roll_offset_parentConstraint_snapper
+      parentName: spine_roll_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_bend_roll_offset_scaleConstraint_snapper_orient
+      parentName: spine_bend_roll_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_bend_roll_offset_scaleConstraint_snapper
+      parentName: spine_bend_roll_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_bend_roll_offset
+      parentName: spine_bend_roll_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_top_roll_offset_parentConstraint_snapper
+      parentName: spine_roll_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_top_roll_offset_scaleConstraint_snapper_orient
+      parentName: spine_top_roll_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_top_roll_offset_scaleConstraint_snapper
+      parentName: spine_top_roll_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_top_roll_offset
+      parentName: spine_top_roll_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_base_roll_offset_parentConstraint_snapper
+      parentName: spine_roll_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_base_roll_offset_scaleConstraint_snapper_orient
+      parentName: spine_base_roll_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_base_roll_offset_scaleConstraint_snapper
+      parentName: spine_base_roll_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_base_roll_offset
+      parentName: spine_base_roll_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_fk_deformers_grp
+      parentName: spine_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_fk_nurbsPlane
+      parentName: spine_fk_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_stretch_grp
+      parentName: spine_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_stretch_crv
+      parentName: spine_stretch_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_topLength_parentConstraint_snapper
+      parentName: spine_stretch_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_topLength_scaleConstraint_snapper_orient
+      parentName: spine_topLength_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_topLength_scaleConstraint_snapper
+      parentName: spine_topLength_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_topLength
+      parentName: spine_topLength_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_baseLength_parentConstraint_snapper
+      parentName: spine_stretch_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_baseLength_scaleConstraint_snapper_orient
+      parentName: spine_baseLength_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_baseLength_scaleConstraint_snapper
+      parentName: spine_baseLength_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_baseLength
+      parentName: spine_baseLength_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_01_ctrl_offset_parentConstraint_snapper
+      parentName: spine_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_01_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: spine_01_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_01_ctrl_offset_scaleConstraint_snapper
+      parentName: spine_01_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_01_ctrl_offset
+      parentName: spine_01_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pelvis_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pelvis_ctrl_orig
+      parentName: pelvis_grp
+      position: {x: -0, y: 2.8029957, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pelvis_ctrl_offset_parentConstraint_snapper
+      parentName: pelvis_ctrl_orig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pelvis_ctrl_offset
+      parentName: pelvis_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hip_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hip_ctrl_orig
+      parentName: l_hip_grp
+      position: {x: -0.061172705, y: 3.174108, z: -0.14490505}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hip_ctrl_offset_parentConstraint_snapper
+      parentName: l_hip_ctrl_orig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hip_ctrl_offset
+      parentName: l_hip_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hip_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hip_ctrl_orig
+      parentName: r_hip_grp
+      position: {x: 0.061172705, y: 3.174108, z: -0.14490505}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hip_ctrl_offset_parentConstraint_snapper
+      parentName: r_hip_ctrl_orig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hip_ctrl_offset
+      parentName: r_hip_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_deformers_grp
+      parentName: l_leg_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_offset_ctrl_deformers_grp
+      parentName: l_leg_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_offset_ctrl_follicles_grp
+      parentName: l_leg_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_01_offset_ctrl_follicle
+      parentName: l_leg_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_01_offset_ctrl_follicle_l_leg_01_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_leg_01_offset_ctrl_follicle
+      position: {x: 0.003497616, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_01_offset_ctrl_follicle_l_leg_01_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_leg_01_offset_ctrl_follicle
+      position: {x: 0.003497616, y: -1.110223e-16, z: 2.7755576e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_02_offset_ctrl_follicle
+      parentName: l_leg_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_02_offset_ctrl_follicle_l_leg_02_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_leg_02_offset_ctrl_follicle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_02_offset_ctrl_follicle_l_leg_02_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_leg_02_offset_ctrl_follicle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_X_offset_ctrl_follicle
+      parentName: l_leg_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_X_offset_ctrl_follicle_l_leg_X_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_leg_X_offset_ctrl_follicle
+      position: {x: -0.000000012501319, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_X_offset_ctrl_follicle_l_leg_X_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_leg_X_offset_ctrl_follicle
+      position: {x: -0.000000012501319, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_01_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_leg_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_01_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: l_leg_01_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_01_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_leg_01_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_01_offset_ctrl_offset
+      parentName: l_leg_01_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_02_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_leg_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_02_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: l_leg_02_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_02_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_leg_02_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_02_offset_ctrl_offset
+      parentName: l_leg_02_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_X_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_leg_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_X_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: l_leg_X_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_X_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_leg_X_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_X_offset_ctrl_offset
+      parentName: l_leg_X_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_bend_deformers_grp
+      parentName: l_leg_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_clusters_deformers_grp
+      parentName: l_leg_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_bend_ctrl_clsHandle_offset
+      parentName: l_leg_clusters_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_bend_ctrl_clsHandle
+      parentName: l_leg_bend_ctrl_clsHandle_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_bend_follicles_grp
+      parentName: l_leg_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_bend_ctrl_follicle
+      parentName: l_leg_bend_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_bend_ctrl_follicle_l_leg_bend_ctrl_offset_parentConstraint_snapper
+      parentName: l_leg_bend_ctrl_follicle
+      position: {x: -0.0000000062506595, y: 1.110223e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_bend_ctrl_offset_parentConstraint_snapper
+      parentName: l_leg_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_bend_ctrl_offset_global_scale
+      parentName: l_leg_bend_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_bend_ctrl_offset
+      parentName: l_leg_bend_ctrl_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_bend_nurbsPlane
+      parentName: l_leg_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_roll_deformers_grp
+      parentName: l_leg_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_roll_nurbsPlane
+      parentName: l_leg_roll_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_pin_deformers_grp
+      parentName: l_leg_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_pin_nurbsPlane
+      parentName: l_leg_pin_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_non_roll_deformers_grp
+      parentName: l_leg_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_non_roll_offset_parentConstraint_snapper
+      parentName: l_leg_non_roll_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_non_roll_offset_global_scale
+      parentName: l_leg_non_roll_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_non_roll_offset
+      parentName: l_leg_non_roll_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_aim_non_roll_transform
+      parentName: l_leg_non_roll_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_stretch_grp
+      parentName: l_leg_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_ctrl_offset_stretch
+      parentName: l_leg_stretch_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0.7071068, z: 4.3297806e-17, w: 4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_ankle_ik_ctrl_stretch
+      parentName: l_leg_stretch_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_ik_parentConstraint_snapper
+      parentName: l_leg_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_volumes_deformers_grp
+      parentName: l_leg_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: l_leg_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: l_leg_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_ctrl_volumes_grp
+      parentName: l_leg_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_ctrl_y_volume_skin_offset
+      parentName: l_leg_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_ctrl_z_volume_skin_offset
+      parentName: l_leg_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_ctrl_negative_y_volume_skin_offset
+      parentName: l_leg_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_ctrl_negative_z_volume_skin_offset
+      parentName: l_leg_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_ctrl_offset_parentConstraint_snapper
+      parentName: l_leg_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_ctrl_offset_global_scale
+      parentName: l_leg_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_ik_fk_ctrl_offset_parentConstraint_snapper
+      parentName: l_leg_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_ik_fk_ctrl_offset_global_scale
+      parentName: l_leg_ik_fk_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_ik_fk_ctrl_offset
+      parentName: l_leg_ik_fk_ctrl_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_ik_grp_parentConstraint_snapper
+      parentName: l_leg_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_ik_grp_global_scale
+      parentName: l_leg_ik_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_ik_grp
+      parentName: l_leg_ik_grp_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_pv_ctrl_offset
+      parentName: l_leg_ik_grp
+      position: {x: -0.8689707, y: 0.6810237, z: 1.1938615}
+      rotation: {x: 0.7070226, y: 0.7070226, z: -0.0109125255, w: 0.0109125255}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_pv_ctrl_parentConstraint_snapper
+      parentName: l_leg_pv_ctrl_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_ankle_ik_ctrl_offset
+      parentName: l_leg_ik_grp
+      position: {x: -0.8689707, y: 0.5988854, z: -0.16301315}
+      rotation: {x: 0.7071068, y: 0.7071068, z: 4.3297806e-17, w: 4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_leg_ankle_ik_ctrl_parentConstraint_snapper
+      parentName: l_leg_ankle_ik_ctrl_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_deformers_grp
+      parentName: r_leg_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_offset_ctrl_deformers_grp
+      parentName: r_leg_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_offset_ctrl_follicles_grp
+      parentName: r_leg_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_01_offset_ctrl_follicle
+      parentName: r_leg_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_01_offset_ctrl_follicle_r_leg_01_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_leg_01_offset_ctrl_follicle
+      position: {x: 0.003497616, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_01_offset_ctrl_follicle_r_leg_01_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_leg_01_offset_ctrl_follicle
+      position: {x: 0.003497616, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_02_offset_ctrl_follicle
+      parentName: r_leg_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_02_offset_ctrl_follicle_r_leg_02_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_leg_02_offset_ctrl_follicle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_02_offset_ctrl_follicle_r_leg_02_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_leg_02_offset_ctrl_follicle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_X_offset_ctrl_follicle
+      parentName: r_leg_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_X_offset_ctrl_follicle_r_leg_X_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_leg_X_offset_ctrl_follicle
+      position: {x: -0.000000012501319, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_X_offset_ctrl_follicle_r_leg_X_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_leg_X_offset_ctrl_follicle
+      position: {x: -0.000000012501319, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_01_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_leg_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_01_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: r_leg_01_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: 1.6081226e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_01_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_leg_01_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -2.8327693e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_01_offset_ctrl_offset
+      parentName: r_leg_01_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_02_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_leg_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_02_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: r_leg_02_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: 1.6081226e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_02_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_leg_02_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -2.8327693e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_02_offset_ctrl_offset
+      parentName: r_leg_02_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_X_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_leg_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_X_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: r_leg_X_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: 1.6081226e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_X_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_leg_X_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -2.8327693e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_X_offset_ctrl_offset
+      parentName: r_leg_X_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_bend_deformers_grp
+      parentName: r_leg_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_clusters_deformers_grp
+      parentName: r_leg_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_bend_ctrl_clsHandle_offset
+      parentName: r_leg_clusters_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_bend_ctrl_clsHandle
+      parentName: r_leg_bend_ctrl_clsHandle_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_bend_follicles_grp
+      parentName: r_leg_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_bend_ctrl_follicle
+      parentName: r_leg_bend_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_bend_ctrl_follicle_r_leg_bend_ctrl_offset_parentConstraint_snapper
+      parentName: r_leg_bend_ctrl_follicle
+      position: {x: -0.0000000062506595, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_bend_ctrl_offset_parentConstraint_snapper
+      parentName: r_leg_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_bend_ctrl_offset_global_scale
+      parentName: r_leg_bend_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_bend_ctrl_offset
+      parentName: r_leg_bend_ctrl_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_bend_nurbsPlane
+      parentName: r_leg_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_roll_deformers_grp
+      parentName: r_leg_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_roll_nurbsPlane
+      parentName: r_leg_roll_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_pin_deformers_grp
+      parentName: r_leg_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_pin_nurbsPlane
+      parentName: r_leg_pin_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_non_roll_deformers_grp
+      parentName: r_leg_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_non_roll_offset_parentConstraint_snapper
+      parentName: r_leg_non_roll_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_non_roll_offset_global_scale
+      parentName: r_leg_non_roll_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_non_roll_offset
+      parentName: r_leg_non_roll_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_aim_non_roll_transform
+      parentName: r_leg_non_roll_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_stretch_grp
+      parentName: r_leg_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_ctrl_offset_stretch
+      parentName: r_leg_stretch_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_ankle_ik_ctrl_stretch
+      parentName: r_leg_stretch_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_ik_parentConstraint_snapper
+      parentName: r_leg_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_volumes_deformers_grp
+      parentName: r_leg_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: r_leg_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: r_leg_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_ctrl_volumes_grp
+      parentName: r_leg_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_ctrl_y_volume_skin_offset
+      parentName: r_leg_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_ctrl_z_volume_skin_offset
+      parentName: r_leg_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_ctrl_negative_y_volume_skin_offset
+      parentName: r_leg_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_ctrl_negative_z_volume_skin_offset
+      parentName: r_leg_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_ctrl_offset_parentConstraint_snapper
+      parentName: r_leg_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_ctrl_offset_global_scale
+      parentName: r_leg_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_ik_fk_ctrl_offset_parentConstraint_snapper
+      parentName: r_leg_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_ik_fk_ctrl_offset_global_scale
+      parentName: r_leg_ik_fk_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_ik_fk_ctrl_offset
+      parentName: r_leg_ik_fk_ctrl_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_ik_grp_parentConstraint_snapper
+      parentName: r_leg_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_ik_grp_global_scale
+      parentName: r_leg_ik_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_ik_grp
+      parentName: r_leg_ik_grp_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_pv_ctrl_offset
+      parentName: r_leg_ik_grp
+      position: {x: 0.8689707, y: 0.6810237, z: 1.1938615}
+      rotation: {x: -0.0109125255, y: -0.0109125255, z: -0.7070226, w: 0.7070226}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_pv_ctrl_parentConstraint_snapper
+      parentName: r_leg_pv_ctrl_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_ankle_ik_ctrl_offset
+      parentName: r_leg_ik_grp
+      position: {x: 0.8689707, y: 0.5988854, z: -0.16301315}
+      rotation: {x: -8.659561e-17, y: 8.7157646e-33, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_leg_ankle_ik_ctrl_parentConstraint_snapper
+      parentName: r_leg_ankle_ik_ctrl_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_foot_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_foot_heel_bank_parentConstraint_snapper
+      parentName: l_foot_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_foot_heel_bank_global_scale
+      parentName: l_foot_heel_bank_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_foot_ball_ik_parentConstraint_snapper
+      parentName: l_foot_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_foot_toe_ik_parentConstraint_snapper
+      parentName: l_foot_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_foot_ctrl_offset_parentConstraint_snapper
+      parentName: l_foot_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_foot_ctrl_offset_pointConstraint_snapper
+      parentName: l_foot_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_foot_ctrl_offset_global_scale
+      parentName: l_foot_ctrl_offset_pointConstraint_snapper
+      position: {x: -0.0000000059711796, y: -0.000000010258384, z: -0.0000000066540595}
+      rotation: {x: 0.7068403, y: 0.7068403, z: -0.019412382, w: 0.019412382}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_foot_ctrl_offset
+      parentName: l_foot_ctrl_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_foot_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_foot_heel_bank_parentConstraint_snapper
+      parentName: r_foot_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_foot_heel_bank_global_scale
+      parentName: r_foot_heel_bank_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_foot_ball_ik_parentConstraint_snapper
+      parentName: r_foot_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_foot_toe_ik_parentConstraint_snapper
+      parentName: r_foot_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_foot_ctrl_offset_parentConstraint_snapper
+      parentName: r_foot_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_foot_ctrl_offset_pointConstraint_snapper
+      parentName: r_foot_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_foot_ctrl_offset_global_scale
+      parentName: r_foot_ctrl_offset_pointConstraint_snapper
+      position: {x: 0.000000005971179, y: 0.000000010258384, z: 0.000000006654059}
+      rotation: {x: 0.7068403, y: 0.7068403, z: -0.019412382, w: 0.019412382}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_foot_ctrl_offset
+      parentName: r_foot_ctrl_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_clavicle_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_clavicle_ctrl_orig
+      parentName: l_clavicle_grp
+      position: {x: -0.19609421, y: 5.755243, z: 0.08075385}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_clavicle_ctrl_offset_parentConstraint_snapper
+      parentName: l_clavicle_ctrl_orig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_clavicle_ctrl_offset
+      parentName: l_clavicle_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_clavicle_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_clavicle_ctrl_orig
+      parentName: r_clavicle_grp
+      position: {x: 0.19609421, y: 5.755243, z: 0.08075385}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_clavicle_ctrl_offset_parentConstraint_snapper
+      parentName: r_clavicle_ctrl_orig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_clavicle_ctrl_offset
+      parentName: r_clavicle_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_deformers_grp
+      parentName: l_arm_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_offset_ctrl_deformers_grp
+      parentName: l_arm_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_offset_ctrl_follicles_grp
+      parentName: l_arm_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_volume_offset_ctrl_follicle
+      parentName: l_arm_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_volume_offset_ctrl_follicle_l_arm_elbow_volume_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_elbow_volume_offset_ctrl_follicle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.005142854, z: -0, w: 0.99998677}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_volume_offset_ctrl_follicle_l_arm_elbow_volume_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_arm_elbow_volume_offset_ctrl_follicle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.005142854, z: -0, w: 0.99998677}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_01_offset_ctrl_follicle
+      parentName: l_arm_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_01_offset_ctrl_follicle_l_arm_elbow_01_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_elbow_01_offset_ctrl_follicle
+      position: {x: -8.881784e-16, y: -8.881784e-16, z: 0.000030357432}
+      rotation: {x: 0, y: 0.0007112931, z: -0, w: 0.99999976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_01_offset_ctrl_follicle_l_arm_elbow_01_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_arm_elbow_01_offset_ctrl_follicle
+      position: {x: -1.7763568e-15, y: -8.881784e-16, z: 0.000030357432}
+      rotation: {x: 0, y: 0.0007112931, z: -0, w: 0.99999976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_02_offset_ctrl_follicle
+      parentName: l_arm_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_02_offset_ctrl_follicle_l_arm_elbow_02_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_elbow_02_offset_ctrl_follicle
+      position: {x: 2.6645353e-15, y: 0, z: 0.00060544885}
+      rotation: {x: 0, y: 0.0007112931, z: -0, w: 0.99999976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_02_offset_ctrl_follicle_l_arm_elbow_02_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_arm_elbow_02_offset_ctrl_follicle
+      position: {x: -0, y: 1.7763568e-15, z: 0.00060544885}
+      rotation: {x: 0, y: 0.0007112931, z: -0, w: 0.99999976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_03_offset_ctrl_follicle
+      parentName: l_arm_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_03_offset_ctrl_follicle_l_arm_elbow_03_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_elbow_03_offset_ctrl_follicle
+      position: {x: -0, y: 8.881784e-16, z: -0.00062558526}
+      rotation: {x: 0, y: 0.0006576839, z: -0, w: 0.9999998}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_03_offset_ctrl_follicle_l_arm_elbow_03_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_arm_elbow_03_offset_ctrl_follicle
+      position: {x: -0, y: -8.881784e-16, z: -0.00062558526}
+      rotation: {x: 0, y: 0.0006576839, z: -0, w: 0.9999998}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_X_offset_ctrl_follicle
+      parentName: l_arm_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_X_offset_ctrl_follicle_l_arm_elbow_X_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_elbow_X_offset_ctrl_follicle
+      position: {x: -0.000000036397015, y: -3.5527137e-15, z: 4.787476e-11}
+      rotation: {x: 0, y: 0.0006576839, z: -0, w: 0.9999998}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_X_offset_ctrl_follicle_l_arm_elbow_X_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_arm_elbow_X_offset_ctrl_follicle
+      position: {x: -0.00000003639702, y: -4.440892e-15, z: 4.7874815e-11}
+      rotation: {x: 0, y: 0.0006576839, z: -0, w: 0.9999998}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_01_offset_ctrl_follicle
+      parentName: l_arm_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_01_offset_ctrl_follicle_l_arm_01_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_01_offset_ctrl_follicle
+      position: {x: 0.029736685, y: 1.7763568e-15, z: 1.6653345e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_01_offset_ctrl_follicle_l_arm_01_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_arm_01_offset_ctrl_follicle
+      position: {x: 0.029736685, y: 1.7763568e-15, z: 1.6653345e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_02_offset_ctrl_follicle
+      parentName: l_arm_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_02_offset_ctrl_follicle_l_arm_02_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_02_offset_ctrl_follicle
+      position: {x: -0.00000016683256, y: -1.7763568e-15, z: -1.110223e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_02_offset_ctrl_follicle_l_arm_02_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_arm_02_offset_ctrl_follicle
+      position: {x: -0.00000016683256, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_03_offset_ctrl_follicle
+      parentName: l_arm_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_03_offset_ctrl_follicle_l_arm_03_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_03_offset_ctrl_follicle
+      position: {x: -4.440892e-16, y: 8.881784e-16, z: -0.000032177424}
+      rotation: {x: 0, y: 0.0009646799, z: -0, w: 0.9999995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_03_offset_ctrl_follicle_l_arm_03_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_arm_03_offset_ctrl_follicle
+      position: {x: -0, y: -8.881784e-16, z: -0.000032177424}
+      rotation: {x: 0, y: 0.0009646799, z: -0, w: 0.9999995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_X_offset_ctrl_follicle
+      parentName: l_arm_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_X_offset_ctrl_follicle_l_arm_X_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_X_offset_ctrl_follicle
+      position: {x: 8.881784e-16, y: -8.881784e-16, z: 0.0009513795}
+      rotation: {x: 0, y: 0.0009646799, z: -0, w: 0.9999995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_X_offset_ctrl_follicle_l_arm_X_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_arm_X_offset_ctrl_follicle
+      position: {x: -0, y: -1.7763568e-15, z: 0.0009513795}
+      rotation: {x: 0, y: 0.0009646799, z: -0, w: 0.9999995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_volume_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_volume_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: l_arm_elbow_volume_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.005142854, z: -0, w: 0.99998677}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_volume_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_arm_elbow_volume_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.005142854, z: -0, w: 0.99998677}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_volume_offset_ctrl_offset
+      parentName: l_arm_elbow_volume_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_01_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_01_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: l_arm_elbow_01_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.0007112931, z: -0, w: 0.99999976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_01_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_arm_elbow_01_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.0007112931, z: -0, w: 0.99999976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_01_offset_ctrl_offset
+      parentName: l_arm_elbow_01_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_02_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_02_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: l_arm_elbow_02_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.0007112931, z: -0, w: 0.99999976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_02_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_arm_elbow_02_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.0007112931, z: -0, w: 0.99999976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_02_offset_ctrl_offset
+      parentName: l_arm_elbow_02_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_03_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_03_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: l_arm_elbow_03_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.0006576839, z: -0, w: 0.9999998}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_03_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_arm_elbow_03_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.0006576839, z: -0, w: 0.9999998}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_03_offset_ctrl_offset
+      parentName: l_arm_elbow_03_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_X_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_X_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: l_arm_elbow_X_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.0006576839, z: -0, w: 0.9999998}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_X_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_arm_elbow_X_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.0006576839, z: -0, w: 0.9999998}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_X_offset_ctrl_offset
+      parentName: l_arm_elbow_X_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_01_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_01_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: l_arm_01_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_01_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_arm_01_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_01_offset_ctrl_offset
+      parentName: l_arm_01_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_02_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_02_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: l_arm_02_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_02_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_arm_02_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_02_offset_ctrl_offset
+      parentName: l_arm_02_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_03_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_03_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: l_arm_03_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.0009646799, z: -0, w: 0.9999995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_03_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_arm_03_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.0009646799, z: -0, w: 0.9999995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_03_offset_ctrl_offset
+      parentName: l_arm_03_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_X_offset_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_X_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: l_arm_X_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.0009646799, z: -0, w: 0.9999995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_X_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: l_arm_X_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.0009646799, z: -0, w: 0.9999995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_X_offset_ctrl_offset
+      parentName: l_arm_X_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_bend_deformers_grp
+      parentName: l_arm_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_clusters_deformers_grp
+      parentName: l_arm_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_bend_ctrl_clsHandle_offset
+      parentName: l_arm_clusters_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_bend_ctrl_clsHandle
+      parentName: l_arm_bend_ctrl_clsHandle_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_bend_ctrl_clsHandle_offset
+      parentName: l_arm_clusters_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_bend_ctrl_clsHandle
+      parentName: l_arm_elbow_bend_ctrl_clsHandle_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_bend_follicles_grp
+      parentName: l_arm_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_bend_ctrl_follicle
+      parentName: l_arm_bend_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_bend_ctrl_follicle_l_arm_bend_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_bend_ctrl_follicle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_mid_bend_ctrl_follicle
+      parentName: l_arm_bend_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_mid_bend_ctrl_follicle_l_arm_elbow_mid_bend_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_elbow_mid_bend_ctrl_follicle
+      position: {x: 8.881784e-16, y: -3.5527137e-15, z: -0.0009505627}
+      rotation: {x: 0, y: -0.0043633096, z: -0, w: 0.9999905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_bend_ctrl_follicle
+      parentName: l_arm_bend_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_bend_ctrl_follicle_l_arm_elbow_bend_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_elbow_bend_ctrl_follicle
+      position: {x: 8.881784e-16, y: 8.881784e-16, z: -0.00045215272}
+      rotation: {x: 0, y: 0.00031690163, z: -0, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_bend_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_bend_ctrl_offset_global_scale
+      parentName: l_arm_bend_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_bend_ctrl_offset
+      parentName: l_arm_bend_ctrl_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_mid_bend_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_mid_bend_ctrl_offset_global_scale
+      parentName: l_arm_elbow_mid_bend_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_mid_bend_ctrl_offset
+      parentName: l_arm_elbow_mid_bend_ctrl_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_bend_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_bend_ctrl_offset_global_scale
+      parentName: l_arm_elbow_bend_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_bend_ctrl_offset
+      parentName: l_arm_elbow_bend_ctrl_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_bend_nurbsPlane
+      parentName: l_arm_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_roll_deformers_grp
+      parentName: l_arm_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_roll_nurbsPlane
+      parentName: l_arm_roll_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_pin_deformers_grp
+      parentName: l_arm_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_pin_nurbsPlane
+      parentName: l_arm_pin_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_pin_roll_offset_parentConstraint_snapper
+      parentName: l_arm_pin_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_pin_roll_offset
+      parentName: l_arm_elbow_pin_roll_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_non_roll_deformers_grp
+      parentName: l_arm_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_non_roll_offset_parentConstraint_snapper
+      parentName: l_arm_non_roll_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_non_roll_offset_global_scale
+      parentName: l_arm_non_roll_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_non_roll_offset
+      parentName: l_arm_non_roll_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_aim_non_roll_transform
+      parentName: l_arm_non_roll_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_stretch_grp
+      parentName: l_arm_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_ctrl_offset_stretch
+      parentName: l_arm_stretch_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.0005405402, y: 0.06390542, z: 0.008440848, w: 0.9979201}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_wrist_ik_ctrl_stretch
+      parentName: l_arm_stretch_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.00037997134, y: 0.08286559, z: 0.008449599, w: 0.9965249}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_ik_parentConstraint_snapper
+      parentName: l_arm_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_volumes_deformers_grp
+      parentName: l_arm_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_volume_offset_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: l_arm_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_volume_offset_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: l_arm_elbow_volume_offset_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_volume_offset_ctrl_volumes_grp
+      parentName: l_arm_elbow_volume_offset_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_volume_offset_ctrl_z_volume_skin_offset
+      parentName: l_arm_elbow_volume_offset_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_elbow_volume_offset_ctrl_negative_z_volume_skin_offset
+      parentName: l_arm_elbow_volume_offset_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: l_arm_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: l_arm_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_ctrl_volumes_grp
+      parentName: l_arm_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_ctrl_y_volume_skin_offset
+      parentName: l_arm_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_ctrl_z_volume_skin_offset
+      parentName: l_arm_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_ctrl_negative_y_volume_skin_offset
+      parentName: l_arm_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_ctrl_negative_z_volume_skin_offset
+      parentName: l_arm_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_ctrl_offset_global_scale
+      parentName: l_arm_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_ik_fk_ctrl_offset_parentConstraint_snapper
+      parentName: l_arm_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_ik_fk_ctrl_offset_global_scale
+      parentName: l_arm_ik_fk_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_ik_fk_ctrl_offset
+      parentName: l_arm_ik_fk_ctrl_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_ik_grp_parentConstraint_snapper
+      parentName: l_arm_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_ik_grp_global_scale
+      parentName: l_arm_ik_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_ik_grp
+      parentName: l_arm_ik_grp_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_pv_ctrl_offset
+      parentName: l_arm_ik_grp
+      position: {x: -4.6858277, y: 5.786422, z: -1.4383805}
+      rotation: {x: -0.00019718513, y: 0.15063672, z: 0.008455839, w: 0.98855305}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_pv_ctrl_parentConstraint_snapper
+      parentName: l_arm_pv_ctrl_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_wrist_ik_ctrl_offset
+      parentName: l_arm_ik_grp
+      position: {x: -5.635225, y: 5.766445, z: 0.4365265}
+      rotation: {x: 0.00037997134, y: 0.08286559, z: 0.008449599, w: 0.9965249}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_arm_wrist_ik_ctrl_parentConstraint_snapper
+      parentName: l_arm_wrist_ik_ctrl_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_deformers_grp
+      parentName: r_arm_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_offset_ctrl_deformers_grp
+      parentName: r_arm_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_offset_ctrl_follicles_grp
+      parentName: r_arm_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_volume_offset_ctrl_follicle
+      parentName: r_arm_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_volume_offset_ctrl_follicle_r_arm_elbow_volume_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_elbow_volume_offset_ctrl_follicle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.154644e-17, y: 0.99998677, z: -6.154644e-17, w: 0.005142854}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_volume_offset_ctrl_follicle_r_arm_elbow_volume_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_arm_elbow_volume_offset_ctrl_follicle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.154644e-17, y: 0.99998677, z: -6.154644e-17, w: 0.005142854}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_01_offset_ctrl_follicle
+      parentName: r_arm_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_01_offset_ctrl_follicle_r_arm_elbow_01_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_elbow_01_offset_ctrl_follicle
+      position: {x: 8.881784e-16, y: 0, z: 0.000030357432}
+      rotation: {x: 6.1188773e-17, y: 0.99999976, z: -6.1188773e-17, w: -0.0007112931}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_01_offset_ctrl_follicle_r_arm_elbow_01_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_arm_elbow_01_offset_ctrl_follicle
+      position: {x: 8.881784e-16, y: -1.7763568e-15, z: 0.000030357432}
+      rotation: {x: 6.1188773e-17, y: 0.99999976, z: -6.1188773e-17, w: -0.0007112931}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_02_offset_ctrl_follicle
+      parentName: r_arm_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_02_offset_ctrl_follicle_r_arm_elbow_02_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_elbow_02_offset_ctrl_follicle
+      position: {x: -1.7763568e-15, y: -8.881784e-16, z: 0.00060544885}
+      rotation: {x: 6.1188773e-17, y: 0.99999976, z: -6.1188773e-17, w: -0.0007112931}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_02_offset_ctrl_follicle_r_arm_elbow_02_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_arm_elbow_02_offset_ctrl_follicle
+      position: {x: -2.6645353e-15, y: -1.7763568e-15, z: 0.00060544885}
+      rotation: {x: 6.1188773e-17, y: 0.99999976, z: -6.1188773e-17, w: -0.0007112931}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_03_offset_ctrl_follicle
+      parentName: r_arm_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_03_offset_ctrl_follicle_r_arm_elbow_03_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_elbow_03_offset_ctrl_follicle
+      position: {x: -1.7763568e-15, y: 8.881784e-16, z: -0.00062558526}
+      rotation: {x: 6.119206e-17, y: 0.9999998, z: -6.119206e-17, w: -0.0006576839}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_03_offset_ctrl_follicle_r_arm_elbow_03_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_arm_elbow_03_offset_ctrl_follicle
+      position: {x: -1.7763568e-15, y: 8.881784e-16, z: -0.00062558526}
+      rotation: {x: 6.119206e-17, y: 0.9999998, z: -6.119206e-17, w: -0.0006576839}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_X_offset_ctrl_follicle
+      parentName: r_arm_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_X_offset_ctrl_follicle_r_arm_elbow_X_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_elbow_X_offset_ctrl_follicle
+      position: {x: -0.00000003639702, y: -6.217249e-15, z: 4.787515e-11}
+      rotation: {x: 6.119206e-17, y: 0.9999998, z: -6.119206e-17, w: -0.0006576839}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_X_offset_ctrl_follicle_r_arm_elbow_X_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_arm_elbow_X_offset_ctrl_follicle
+      position: {x: -0.00000003639702, y: -4.440892e-15, z: 4.7875037e-11}
+      rotation: {x: 6.119206e-17, y: 0.9999998, z: -6.119206e-17, w: -0.0006576839}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_01_offset_ctrl_follicle
+      parentName: r_arm_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_01_offset_ctrl_follicle_r_arm_01_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_01_offset_ctrl_follicle
+      position: {x: 0.029736685, y: -3.5527137e-15, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_01_offset_ctrl_follicle_r_arm_01_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_arm_01_offset_ctrl_follicle
+      position: {x: 0.029736685, y: -3.5527137e-15, z: -1.110223e-16}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_02_offset_ctrl_follicle
+      parentName: r_arm_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_02_offset_ctrl_follicle_r_arm_02_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_02_offset_ctrl_follicle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: 1.6081226e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_02_offset_ctrl_follicle_r_arm_02_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_arm_02_offset_ctrl_follicle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_03_offset_ctrl_follicle
+      parentName: r_arm_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_03_offset_ctrl_follicle_r_arm_03_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_03_offset_ctrl_follicle
+      position: {x: -8.881784e-16, y: -2.6645353e-15, z: -0.000032177424}
+      rotation: {x: 6.117324e-17, y: 0.9999995, z: -6.117324e-17, w: -0.0009646799}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_03_offset_ctrl_follicle_r_arm_03_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_arm_03_offset_ctrl_follicle
+      position: {x: -8.881784e-16, y: -3.5527137e-15, z: -0.000032177424}
+      rotation: {x: 6.117324e-17, y: 0.9999995, z: -6.117324e-17, w: -0.0009646799}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_X_offset_ctrl_follicle
+      parentName: r_arm_offset_ctrl_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_X_offset_ctrl_follicle_r_arm_X_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_X_offset_ctrl_follicle
+      position: {x: -0, y: -8.881784e-16, z: 0.0009513795}
+      rotation: {x: 6.117324e-17, y: 0.9999995, z: -6.117324e-17, w: -0.0009646799}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_X_offset_ctrl_follicle_r_arm_X_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_arm_X_offset_ctrl_follicle
+      position: {x: -8.881784e-16, y: 0, z: 0.0009513795}
+      rotation: {x: 6.117324e-17, y: 0.9999995, z: -6.117324e-17, w: -0.0009646799}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_volume_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_volume_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: r_arm_elbow_volume_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.0916624e-17, y: 0.99998677, z: -6.0916624e-17, w: -0.005142854}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_volume_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_arm_elbow_volume_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.154644e-17, y: 0.99998677, z: -6.154644e-17, w: 0.005142854}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_volume_offset_ctrl_offset
+      parentName: r_arm_elbow_volume_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_01_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_01_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: r_arm_elbow_01_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.127588e-17, y: 0.99999976, z: -6.127588e-17, w: 0.0007112931}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_01_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_arm_elbow_01_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.1188773e-17, y: 0.99999976, z: -6.1188773e-17, w: -0.0007112931}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_01_offset_ctrl_offset
+      parentName: r_arm_elbow_01_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_02_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_02_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: r_arm_elbow_02_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.127588e-17, y: 0.99999976, z: -6.127588e-17, w: 0.0007112931}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_02_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_arm_elbow_02_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.1188773e-17, y: 0.99999976, z: -6.1188773e-17, w: -0.0007112931}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_02_offset_ctrl_offset
+      parentName: r_arm_elbow_02_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_03_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_03_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: r_arm_elbow_03_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.12726e-17, y: 0.9999998, z: -6.12726e-17, w: 0.0006576839}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_03_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_arm_elbow_03_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.119206e-17, y: 0.9999998, z: -6.119206e-17, w: -0.0006576839}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_03_offset_ctrl_offset
+      parentName: r_arm_elbow_03_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_X_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_X_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: r_arm_elbow_X_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.12726e-17, y: 0.9999998, z: -6.12726e-17, w: 0.0006576839}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_X_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_arm_elbow_X_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.119206e-17, y: 0.9999998, z: -6.119206e-17, w: -0.0006576839}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_X_offset_ctrl_offset
+      parentName: r_arm_elbow_X_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_01_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_01_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: r_arm_01_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_01_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_arm_01_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_01_offset_ctrl_offset
+      parentName: r_arm_01_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_02_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_02_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: r_arm_02_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_02_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_arm_02_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_02_offset_ctrl_offset
+      parentName: r_arm_02_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_03_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_03_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: r_arm_03_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.1291383e-17, y: 0.9999995, z: -6.1291383e-17, w: 0.0009646799}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_03_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_arm_03_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.117324e-17, y: 0.9999995, z: -6.117324e-17, w: -0.0009646799}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_03_offset_ctrl_offset
+      parentName: r_arm_03_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_X_offset_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_offset_ctrl_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_X_offset_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: r_arm_X_offset_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.1291383e-17, y: 0.9999995, z: -6.1291383e-17, w: 0.0009646799}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_X_offset_ctrl_offset_scaleConstraint_snapper
+      parentName: r_arm_X_offset_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.117324e-17, y: 0.9999995, z: -6.117324e-17, w: -0.0009646799}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_X_offset_ctrl_offset
+      parentName: r_arm_X_offset_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_bend_deformers_grp
+      parentName: r_arm_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_clusters_deformers_grp
+      parentName: r_arm_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_bend_ctrl_clsHandle_offset
+      parentName: r_arm_clusters_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_bend_ctrl_clsHandle
+      parentName: r_arm_bend_ctrl_clsHandle_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_bend_ctrl_clsHandle_offset
+      parentName: r_arm_clusters_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_bend_ctrl_clsHandle
+      parentName: r_arm_elbow_bend_ctrl_clsHandle_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_bend_follicles_grp
+      parentName: r_arm_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_bend_ctrl_follicle
+      parentName: r_arm_bend_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_bend_ctrl_follicle_r_arm_bend_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_bend_ctrl_follicle
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: 1.6081226e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_mid_bend_ctrl_follicle
+      parentName: r_arm_bend_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_mid_bend_ctrl_follicle_r_arm_elbow_mid_bend_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_elbow_mid_bend_ctrl_follicle
+      position: {x: 8.881784e-16, y: 1.7763568e-15, z: -0.0009505627}
+      rotation: {x: 6.149894e-17, y: 0.9999905, z: -6.149894e-17, w: 0.0043633096}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_bend_ctrl_follicle
+      parentName: r_arm_bend_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_bend_ctrl_follicle_r_arm_elbow_bend_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_elbow_bend_ctrl_follicle
+      position: {x: -0, y: 8.881784e-16, z: -0.00045215272}
+      rotation: {x: 6.1212934e-17, y: 0.99999994, z: -6.1212934e-17, w: -0.00031690163}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_bend_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_bend_ctrl_offset_global_scale
+      parentName: r_arm_bend_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_bend_ctrl_offset
+      parentName: r_arm_bend_ctrl_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_mid_bend_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_mid_bend_ctrl_offset_global_scale
+      parentName: r_arm_elbow_mid_bend_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_mid_bend_ctrl_offset
+      parentName: r_arm_elbow_mid_bend_ctrl_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_bend_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_bend_ctrl_offset_global_scale
+      parentName: r_arm_elbow_bend_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_bend_ctrl_offset
+      parentName: r_arm_elbow_bend_ctrl_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_bend_nurbsPlane
+      parentName: r_arm_bend_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_roll_deformers_grp
+      parentName: r_arm_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_roll_nurbsPlane
+      parentName: r_arm_roll_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_pin_deformers_grp
+      parentName: r_arm_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_pin_nurbsPlane
+      parentName: r_arm_pin_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_pin_roll_offset_parentConstraint_snapper
+      parentName: r_arm_pin_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_pin_roll_offset
+      parentName: r_arm_elbow_pin_roll_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_non_roll_deformers_grp
+      parentName: r_arm_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_non_roll_offset_parentConstraint_snapper
+      parentName: r_arm_non_roll_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_non_roll_offset_global_scale
+      parentName: r_arm_non_roll_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_non_roll_offset
+      parentName: r_arm_non_roll_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_aim_non_roll_transform
+      parentName: r_arm_non_roll_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_stretch_grp
+      parentName: r_arm_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_ctrl_offset_stretch
+      parentName: r_arm_stretch_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.99792016, y: -0.008440847, z: 0.063905425, w: -0.0005405401}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_wrist_ik_ctrl_stretch
+      parentName: r_arm_stretch_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.9965249, y: -0.008449599, z: 0.08286559, w: -0.00037997134}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_ik_parentConstraint_snapper
+      parentName: r_arm_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_volumes_deformers_grp
+      parentName: r_arm_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_volume_offset_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: r_arm_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_volume_offset_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: r_arm_elbow_volume_offset_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_volume_offset_ctrl_volumes_grp
+      parentName: r_arm_elbow_volume_offset_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_volume_offset_ctrl_z_volume_skin_offset
+      parentName: r_arm_elbow_volume_offset_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_elbow_volume_offset_ctrl_negative_z_volume_skin_offset
+      parentName: r_arm_elbow_volume_offset_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: r_arm_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: r_arm_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_ctrl_volumes_grp
+      parentName: r_arm_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_ctrl_y_volume_skin_offset
+      parentName: r_arm_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_ctrl_z_volume_skin_offset
+      parentName: r_arm_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_ctrl_negative_y_volume_skin_offset
+      parentName: r_arm_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_ctrl_negative_z_volume_skin_offset
+      parentName: r_arm_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_ctrl_offset_global_scale
+      parentName: r_arm_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_ik_fk_ctrl_offset_parentConstraint_snapper
+      parentName: r_arm_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_ik_fk_ctrl_offset_global_scale
+      parentName: r_arm_ik_fk_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_ik_fk_ctrl_offset
+      parentName: r_arm_ik_fk_ctrl_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_ik_grp_parentConstraint_snapper
+      parentName: r_arm_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_ik_grp_global_scale
+      parentName: r_arm_ik_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_ik_grp
+      parentName: r_arm_ik_grp_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_pv_ctrl_offset
+      parentName: r_arm_ik_grp
+      position: {x: 4.6858277, y: 5.786422, z: -1.4383805}
+      rotation: {x: 0.98855305, y: -0.008455839, z: 0.15063672, w: 0.00019718513}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_pv_ctrl_parentConstraint_snapper
+      parentName: r_arm_pv_ctrl_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_wrist_ik_ctrl_offset
+      parentName: r_arm_ik_grp
+      position: {x: 5.635225, y: 5.766445, z: 0.4365265}
+      rotation: {x: 0.9965249, y: -0.008449599, z: 0.08286559, w: -0.00037997134}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_arm_wrist_ik_ctrl_parentConstraint_snapper
+      parentName: r_arm_wrist_ik_ctrl_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_volumes_deformers_grp
+      parentName: l_hand_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_thumb_02_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: l_hand_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_thumb_02_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: l_hand_thumb_02_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_thumb_02_ctrl_volumes_grp
+      parentName: l_hand_thumb_02_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_thumb_02_ctrl_y_volume_skin_offset
+      parentName: l_hand_thumb_02_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_thumb_02_ctrl_negative_y_volume_skin_offset
+      parentName: l_hand_thumb_02_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: l_hand_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: l_hand_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ctrl_volumes_grp
+      parentName: l_hand_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ctrl_y_volume_skin_offset
+      parentName: l_hand_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ctrl_z_volume_skin_offset
+      parentName: l_hand_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ctrl_negative_y_volume_skin_offset
+      parentName: l_hand_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ctrl_negative_z_volume_skin_offset
+      parentName: l_hand_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_middle_02_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: l_hand_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_middle_02_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: l_hand_middle_02_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_middle_02_ctrl_volumes_grp
+      parentName: l_hand_middle_02_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_middle_02_ctrl_y_volume_skin_offset
+      parentName: l_hand_middle_02_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_middle_02_ctrl_negative_y_volume_skin_offset
+      parentName: l_hand_middle_02_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_middle_01_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: l_hand_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_middle_01_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: l_hand_middle_01_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_middle_01_ctrl_volumes_grp
+      parentName: l_hand_middle_01_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_middle_01_ctrl_y_volume_skin_offset
+      parentName: l_hand_middle_01_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_middle_01_ctrl_negative_y_volume_skin_offset
+      parentName: l_hand_middle_01_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_index_02_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: l_hand_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_index_02_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: l_hand_index_02_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_index_02_ctrl_volumes_grp
+      parentName: l_hand_index_02_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_index_02_ctrl_y_volume_skin_offset
+      parentName: l_hand_index_02_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_index_02_ctrl_negative_y_volume_skin_offset
+      parentName: l_hand_index_02_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_index_01_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: l_hand_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_index_01_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: l_hand_index_01_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_index_01_ctrl_volumes_grp
+      parentName: l_hand_index_01_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_index_01_ctrl_y_volume_skin_offset
+      parentName: l_hand_index_01_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_index_01_ctrl_negative_y_volume_skin_offset
+      parentName: l_hand_index_01_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ring_01_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: l_hand_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ring_01_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: l_hand_ring_01_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ring_01_ctrl_volumes_grp
+      parentName: l_hand_ring_01_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ring_01_ctrl_y_volume_skin_offset
+      parentName: l_hand_ring_01_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ring_01_ctrl_negative_y_volume_skin_offset
+      parentName: l_hand_ring_01_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ring_02_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: l_hand_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ring_02_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: l_hand_ring_02_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ring_02_ctrl_volumes_grp
+      parentName: l_hand_ring_02_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ring_02_ctrl_y_volume_skin_offset
+      parentName: l_hand_ring_02_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ring_02_ctrl_negative_y_volume_skin_offset
+      parentName: l_hand_ring_02_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_thumb_01_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: l_hand_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_thumb_01_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: l_hand_thumb_01_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_thumb_01_ctrl_volumes_grp
+      parentName: l_hand_thumb_01_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_thumb_01_ctrl_y_volume_skin_offset
+      parentName: l_hand_thumb_01_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_thumb_01_ctrl_negative_y_volume_skin_offset
+      parentName: l_hand_thumb_01_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ctrl_offset_parentConstraint_snapper
+      parentName: l_hand_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ctrl_offset_pointConstraint_snapper
+      parentName: l_hand_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ctrl_offset_global_scale
+      parentName: l_hand_ctrl_offset_pointConstraint_snapper
+      position: {x: -0.099890776, y: 0.010323109, z: -0.000011450224}
+      rotation: {x: 0.00032154148, y: -3.5735056e-17, z: -0.008452023, w: 0.99996424}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand_ctrl_offset
+      parentName: l_hand_ctrl_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_volumes_deformers_grp
+      parentName: r_hand_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_thumb_02_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: r_hand_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_thumb_02_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: r_hand_thumb_02_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_thumb_02_ctrl_volumes_grp
+      parentName: r_hand_thumb_02_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_thumb_02_ctrl_y_volume_skin_offset
+      parentName: r_hand_thumb_02_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_thumb_02_ctrl_negative_y_volume_skin_offset
+      parentName: r_hand_thumb_02_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: r_hand_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: r_hand_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ctrl_volumes_grp
+      parentName: r_hand_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ctrl_y_volume_skin_offset
+      parentName: r_hand_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ctrl_z_volume_skin_offset
+      parentName: r_hand_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ctrl_negative_y_volume_skin_offset
+      parentName: r_hand_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ctrl_negative_z_volume_skin_offset
+      parentName: r_hand_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_middle_02_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: r_hand_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_middle_02_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: r_hand_middle_02_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_middle_02_ctrl_volumes_grp
+      parentName: r_hand_middle_02_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_middle_02_ctrl_y_volume_skin_offset
+      parentName: r_hand_middle_02_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_middle_02_ctrl_negative_y_volume_skin_offset
+      parentName: r_hand_middle_02_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_middle_01_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: r_hand_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_middle_01_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: r_hand_middle_01_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_middle_01_ctrl_volumes_grp
+      parentName: r_hand_middle_01_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_middle_01_ctrl_y_volume_skin_offset
+      parentName: r_hand_middle_01_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_middle_01_ctrl_negative_y_volume_skin_offset
+      parentName: r_hand_middle_01_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_index_02_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: r_hand_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_index_02_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: r_hand_index_02_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_index_02_ctrl_volumes_grp
+      parentName: r_hand_index_02_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_index_02_ctrl_y_volume_skin_offset
+      parentName: r_hand_index_02_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_index_02_ctrl_negative_y_volume_skin_offset
+      parentName: r_hand_index_02_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_index_01_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: r_hand_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_index_01_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: r_hand_index_01_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_index_01_ctrl_volumes_grp
+      parentName: r_hand_index_01_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_index_01_ctrl_y_volume_skin_offset
+      parentName: r_hand_index_01_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_index_01_ctrl_negative_y_volume_skin_offset
+      parentName: r_hand_index_01_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ring_01_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: r_hand_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ring_01_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: r_hand_ring_01_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ring_01_ctrl_volumes_grp
+      parentName: r_hand_ring_01_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ring_01_ctrl_y_volume_skin_offset
+      parentName: r_hand_ring_01_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ring_01_ctrl_negative_y_volume_skin_offset
+      parentName: r_hand_ring_01_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ring_02_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: r_hand_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ring_02_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: r_hand_ring_02_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ring_02_ctrl_volumes_grp
+      parentName: r_hand_ring_02_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ring_02_ctrl_y_volume_skin_offset
+      parentName: r_hand_ring_02_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ring_02_ctrl_negative_y_volume_skin_offset
+      parentName: r_hand_ring_02_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_thumb_01_ctrl_volumes_grp_parentConstraint_snapper
+      parentName: r_hand_volumes_deformers_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_thumb_01_ctrl_volumes_grp_matrixConstraint_snapper
+      parentName: r_hand_thumb_01_ctrl_volumes_grp_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_thumb_01_ctrl_volumes_grp
+      parentName: r_hand_thumb_01_ctrl_volumes_grp_matrixConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_thumb_01_ctrl_y_volume_skin_offset
+      parentName: r_hand_thumb_01_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_thumb_01_ctrl_negative_y_volume_skin_offset
+      parentName: r_hand_thumb_01_ctrl_volumes_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ctrl_offset_parentConstraint_snapper
+      parentName: r_hand_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ctrl_offset_pointConstraint_snapper
+      parentName: r_hand_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ctrl_offset_global_scale
+      parentName: r_hand_ctrl_offset_pointConstraint_snapper
+      position: {x: 0.099890776, y: -0.010323109, z: 0.000011450224}
+      rotation: {x: 0.00032154148, y: -1.0396854e-16, z: -0.008452023, w: 0.99996424}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand_ctrl_offset
+      parentName: r_hand_ctrl_offset_global_scale
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head_ctrl_orig
+      parentName: head_grp
+      position: {x: -0, y: 5.327892, z: 0.12903054}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head_ctrl_offset_parentConstraint_snapper
+      parentName: head_ctrl_orig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head_ctrl_offset
+      parentName: head_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head_volumes_deformers_grp
+      parentName: head_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skull_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skull_01_ctrl_orig
+      parentName: skull_grp
+      position: {x: -0, y: 5.8255525, z: 0.12903054}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skull_01_ctrl_offset_parentConstraint_snapper
+      parentName: skull_01_ctrl_orig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skull_01_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: skull_01_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skull_01_ctrl_offset_scaleConstraint_snapper
+      parentName: skull_01_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skull_01_ctrl_offset
+      parentName: skull_01_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_eye_rivet_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_eye_rivet_surf_RIVET
+      parentName: l_eye_rivet_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_eye_rivet_follicles_grp
+      parentName: l_eye_rivet_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_eye_rivet_ctrl_follicle
+      parentName: l_eye_rivet_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_eye_rivet_ctrl_follicle_l_eye_rivet_ctrl_offset_parentConstraint_snapper
+      parentName: l_eye_rivet_ctrl_follicle
+      position: {x: 0.000000006182865, y: 5.035732e-10, z: 0.024158772}
+      rotation: {x: 0.7159257, y: 0.012777647, z: 0.000651284, w: 0.69805926}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_eye_rivet_ctrl_offset_parentConstraint_snapper
+      parentName: l_eye_rivet_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_eye_rivet_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: l_eye_rivet_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.56019074, y: 0.42895243, z: 0.5621386, w: -0.43149316}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_eye_rivet_ctrl_offset_scaleConstraint_snapper
+      parentName: l_eye_rivet_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.56019074, y: 0.42895243, z: 0.5621386, w: 0.43149316}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_eye_rivet_ctrl_offset
+      parentName: l_eye_rivet_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_eye_rivet_ctrl
+      parentName: l_eye_rivet_ctrl_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_eye_rivet_ctrl_l_eye_base_ctrl_offset_parentConstraint_snapper
+      parentName: l_eye_rivet_ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.70550424, y: 0, z: -0, w: 0.7087057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_eye_rivet_ctrl_l_eye_base_ctrl_offset_scaleConstraint_snapper
+      parentName: l_eye_rivet_ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.70550424, y: 0, z: -0, w: 0.7087057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_eye_rivet_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_eye_rivet_surf_RIVET
+      parentName: r_eye_rivet_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_eye_rivet_follicles_grp
+      parentName: r_eye_rivet_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_eye_rivet_ctrl_follicle
+      parentName: r_eye_rivet_follicles_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_eye_rivet_ctrl_follicle_r_eye_rivet_ctrl_offset_parentConstraint_snapper
+      parentName: r_eye_rivet_ctrl_follicle
+      position: {x: -0.000000006182865, y: 5.035723e-10, z: 0.024158772}
+      rotation: {x: -0.69805926, y: 0.000651284, z: -0.012777647, w: 0.7159257}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_eye_rivet_ctrl_offset_parentConstraint_snapper
+      parentName: r_eye_rivet_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_eye_rivet_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: r_eye_rivet_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5621386, y: 0.43149316, z: -0.56019074, w: 0.42895243}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_eye_rivet_ctrl_offset_scaleConstraint_snapper
+      parentName: r_eye_rivet_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5621386, y: 0.43149316, z: -0.56019074, w: -0.42895243}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_eye_rivet_ctrl_offset
+      parentName: r_eye_rivet_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_eye_rivet_ctrl
+      parentName: r_eye_rivet_ctrl_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_eye_rivet_ctrl_r_eye_base_ctrl_offset_parentConstraint_snapper
+      parentName: r_eye_rivet_ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.70550424, y: 0, z: -0, w: 0.7087057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_eye_rivet_ctrl_r_eye_base_ctrl_offset_scaleConstraint_snapper
+      parentName: r_eye_rivet_ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.70550424, y: 0, z: -0, w: 0.7087057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_eye_base_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_eye_base_ctrl_orig
+      parentName: l_eye_base_grp
+      position: {x: -0.616481, y: 6.957663, z: 1.9382627}
+      rotation: {x: 0, y: -0.13094221, z: -0, w: 0.99139}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_eye_base_ctrl_offset_parentConstraint_snapper
+      parentName: l_eye_base_ctrl_orig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_eye_base_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: l_eye_base_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.70550424, y: -0, z: -0, w: 0.7087057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_eye_base_ctrl_offset_scaleConstraint_snapper
+      parentName: l_eye_base_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.70550424, y: 0, z: -0, w: 0.7087057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_eye_base_ctrl_offset
+      parentName: l_eye_base_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_eye_base_grp
+      parentName: RIG
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_eye_base_ctrl_orig
+      parentName: r_eye_base_grp
+      position: {x: 0.616481, y: 6.957663, z: 1.9382627}
+      rotation: {x: 0.99139, y: 8.017897e-18, z: -0.13094221, w: 6.070513e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_eye_base_ctrl_offset_parentConstraint_snapper
+      parentName: r_eye_base_ctrl_orig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_eye_base_ctrl_offset_scaleConstraint_snapper_orient
+      parentName: r_eye_base_ctrl_offset_parentConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.70550424, y: -0, z: -0, w: 0.7087057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_eye_base_ctrl_offset_scaleConstraint_snapper
+      parentName: r_eye_base_ctrl_offset_scaleConstraint_snapper_orient
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.70550424, y: 0, z: -0, w: 0.7087057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_eye_base_ctrl_offset
+      parentName: r_eye_base_ctrl_offset_scaleConstraint_snapper
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ADD_RIG
+      parentName: ACTOR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Hips
+      parentName: fall_guy(Clone)
+      position: {x: 0.0015880761, y: 2.42828, z: -0.08713264}
+      rotation: {x: -0.00000047411825, y: 0.00041327477, z: -0.000012869764, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Spine
+      parentName: mixamorig:Hips
+      position: {x: -0, y: 0.80661297, z: 0.044993825}
+      rotation: {x: 0.027858572, y: -0.00041275588, z: 0.0000243777, w: 0.9996118}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Spine1
+      parentName: mixamorig:Spine
+      position: {x: -0, y: 0.9425115, z: 5.371756e-10}
+      rotation: {x: 3.127803e-27, y: -4.5765813e-15, z: 6.8343654e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Spine2
+      parentName: mixamorig:Spine1
+      position: {x: -0, y: 1.0771562, z: -0.0000000024627314}
+      rotation: {x: 0, y: -8.077936e-28, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftShoulder
+      parentName: mixamorig:Spine2
+      position: {x: -0.8552703, y: 1.0941132, z: 0.007459811}
+      rotation: {x: 0.53095895, y: -0.46764317, z: 0.52671885, w: 0.47112605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftArm
+      parentName: mixamorig:LeftShoulder
+      position: {x: -8.461265e-11, y: 1.7173653, z: -3.7510706e-10}
+      rotation: {x: -0.05946377, y: 0.0017859741, z: 0.0037777114, w: 0.99822176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftForeArm
+      parentName: mixamorig:LeftArm
+      position: {x: -0.000000003746175, y: 1.6337976, z: -8.467733e-10}
+      rotation: {x: 0.0000000043526325, y: 0.0036199812, z: -0.00000037532527, w: 0.99999344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHand
+      parentName: mixamorig:LeftForeArm
+      position: {x: -6.3024785e-10, y: 2.07407, z: 0.0000000023819924}
+      rotation: {x: -0.01423067, y: -0.0036316505, z: -0.25631142, w: 0.9664827}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandThumb1
+      parentName: mixamorig:LeftHand
+      position: {x: 0.28250706, y: 0.26413736, z: 0.033243053}
+      rotation: {x: 0.06284237, y: -0.098161235, z: -0.22394176, w: 0.9676081}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandThumb2
+      parentName: mixamorig:LeftHandThumb1
+      position: {x: -0.07314695, y: 0.30180702, z: 9.684786e-11}
+      rotation: {x: 0.0003207996, y: 0.0053690285, z: 0.29294592, w: 0.9561139}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandThumb3
+      parentName: mixamorig:LeftHandThumb2
+      position: {x: 0.13045467, y: 0.34988934, z: -0.0000000019571367}
+      rotation: {x: 0.0001064352, y: 0.0013280193, z: -0.2732358, w: 0.9619462}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandThumb4
+      parentName: mixamorig:LeftHandThumb3
+      position: {x: -0.05730774, y: 0.28775045, z: 0.0000000053601035}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandMiddle1
+      parentName: mixamorig:LeftHand
+      position: {x: -0.3272292, y: 0.57349193, z: 0.019408574}
+      rotation: {x: 0.014169032, y: 0.0038794416, z: 0.27152446, w: 0.96231943}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandMiddle2
+      parentName: mixamorig:LeftHandMiddle1
+      position: {x: 0.012708953, y: 0.4025747, z: -0.000000005223927}
+      rotation: {x: 0.000010966987, y: -0.0015346442, z: -0.039042365, w: 0.9992364}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandMiddle3
+      parentName: mixamorig:LeftHandMiddle2
+      position: {x: -0.018833095, y: 0.40343767, z: -0.000000007911305}
+      rotation: {x: 0.0000005442552, y: 0.000008396969, z: 0.04644574, w: 0.9989208}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandMiddle4
+      parentName: mixamorig:LeftHandMiddle3
+      position: {x: 0.006124164, y: 0.13151169, z: 2.0255175e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandIndex1
+      parentName: mixamorig:LeftHand
+      position: {x: 0.3272292, y: 0.92491, z: -0.014890649}
+      rotation: {x: 0.021231303, y: -0.021893332, z: 0.24754441, w: 0.9683965}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandIndex2
+      parentName: mixamorig:LeftHandIndex1
+      position: {x: -0.00428472, y: 0.25064826, z: -0.0000000014465327}
+      rotation: {x: 0.0000015888656, y: -0.0003742748, z: 0.013701254, w: 0.99990606}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandIndex3
+      parentName: mixamorig:LeftHandIndex2
+      position: {x: 0.00272115, y: 0.26352248, z: 0.0000000025189282}
+      rotation: {x: 0.0000059307363, y: 0.00047677054, z: 0.0023111734, w: 0.99999726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandIndex4
+      parentName: mixamorig:LeftHandIndex3
+      position: {x: 0.0015635516, y: 0.107592836, z: 0.0000000014995116}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightShoulder
+      parentName: mixamorig:Spine2
+      position: {x: 0.8552703, y: 1.0940137, z: 0.0056751613}
+      rotation: {x: 0.5304221, y: 0.4681089, z: -0.52729934, w: 0.4706186}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightArm
+      parentName: mixamorig:RightShoulder
+      position: {x: -4.1844916e-11, y: 1.7173653, z: -3.822489e-10}
+      rotation: {x: -0.059521608, y: -0.002159725, z: -0.0027057948, w: 0.99822104}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightForeArm
+      parentName: mixamorig:RightArm
+      position: {x: -4.2032228e-10, y: 1.6355684, z: 0.0000000011030039}
+      rotation: {x: 0.00000023892846, y: -0.0024571181, z: -0.00000030438378, w: 0.999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHand
+      parentName: mixamorig:RightForeArm
+      position: {x: -0.0000000046195128, y: 2.0575023, z: -0.0000000011563861}
+      rotation: {x: -0.004833329, y: 0.006534415, z: 0.26023725, w: 0.9655105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandMiddle1
+      parentName: mixamorig:RightHand
+      position: {x: 0.29201394, y: 0.5023566, z: 0.007387685}
+      rotation: {x: 0.006299144, y: -0.0010601678, z: -0.27610728, w: 0.96110564}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandMiddle2
+      parentName: mixamorig:RightHandMiddle1
+      position: {x: -0.01572375, y: 0.47540197, z: -0.000000004511045}
+      rotation: {x: 0.00015641113, y: 0.004798841, z: 0.06564372, w: 0.9978316}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandMiddle3
+      parentName: mixamorig:RightHandMiddle2
+      position: {x: 0.038426567, y: 0.3890913, z: 0.0000000026277096}
+      rotation: {x: -0.000023512628, y: 0.0010839695, z: -0.11958366, w: 0.99282354}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandMiddle4
+      parentName: mixamorig:RightHandMiddle3
+      position: {x: -0.022702802, y: 0.1595489, z: 0.0000000020841178}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandThumb1
+      parentName: mixamorig:RightHand
+      position: {x: -0.27413166, y: 0.3108431, z: 0.0120517565}
+      rotation: {x: 0.054445203, y: 0.065238975, z: 0.24407712, w: 0.9660258}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandThumb2
+      parentName: mixamorig:RightHandThumb1
+      position: {x: 0.09537672, y: 0.31769535, z: 9.167911e-10}
+      rotation: {x: 0.00039170322, y: -0.0066615515, z: -0.34335285, w: 0.93918276}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandThumb3
+      parentName: mixamorig:RightHandThumb2
+      position: {x: -0.15880495, y: 0.36614037, z: 0.000000007318252}
+      rotation: {x: -0.0004553862, y: 0.0044066687, z: 0.30152887, w: 0.9534468}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandThumb4
+      parentName: mixamorig:RightHandThumb3
+      position: {x: 0.063428245, y: 0.30747077, z: -1.0736123e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandIndex1
+      parentName: mixamorig:RightHand
+      position: {x: -0.29201394, y: 1.0061141, z: -0.0342273}
+      rotation: {x: 0.016542442, y: 0.03985431, z: -0.2768139, w: 0.9599542}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandIndex2
+      parentName: mixamorig:RightHandIndex1
+      position: {x: -0.008303092, y: 0.2334204, z: 1.6382806e-10}
+      rotation: {x: -0.0000013965208, y: 0.000116267045, z: 0.021243688, w: 0.99977434}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandIndex3
+      parentName: mixamorig:RightHandIndex2
+      position: {x: 0.0016613625, y: 0.24482033, z: 8.386376e-10}
+      rotation: {x: -0.000023841756, y: -0.0007716367, z: 0.023681799, w: 0.99971926}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandIndex4
+      parentName: mixamorig:RightHandIndex3
+      position: {x: 0.006641727, y: 0.12140651, z: -0.0000000017094948}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Neck
+      parentName: mixamorig:Spine2
+      position: {x: -0, y: 1.2118003, z: -0.000000018187954}
+      rotation: {x: -0.027858114, y: 4.8950356e-14, z: 2.2609777e-13, w: 0.9996119}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Head
+      parentName: mixamorig:Neck
+      position: {x: -0, y: 0.08885813, z: -0.011374146}
+      rotation: {x: 0, y: 0, z: 5.8915655e-37, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:HeadTop_End
+      parentName: mixamorig:Head
+      position: {x: -0, y: 3.6222196, z: -0.46365637}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftUpLeg
+      parentName: mixamorig:Hips
+      position: {x: -1.4749892, y: -0.44673395, z: 0.07445716}
+      rotation: {x: -0.03717739, y: 0.008486735, z: 0.9987636, w: -0.031891376}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftLeg
+      parentName: mixamorig:LeftUpLeg
+      position: {x: -0.000000019521332, y: 1.1522925, z: 0.000000008639276}
+      rotation: {x: 0.019330747, y: -0.72635597, z: 0.23240004, w: -0.64654756}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftFoot
+      parentName: mixamorig:LeftLeg
+      position: {x: 7.7190987e-10, y: 0.145695, z: -3.5748582e-10}
+      rotation: {x: 0.33237287, y: -0.5306348, z: 0.50198746, w: 0.5966268}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftToeBase
+      parentName: mixamorig:LeftFoot
+      position: {x: -9.366486e-10, y: 1.0959178, z: -0.000000015507167}
+      rotation: {x: 0.32323444, y: -0.04799813, z: 0.016418321, w: 0.94495827}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftToe_End
+      parentName: mixamorig:LeftToeBase
+      position: {x: -5.056877e-10, y: 0.48875904, z: 1.580631e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightUpLeg
+      parentName: mixamorig:Hips
+      position: {x: 1.4749892, y: -0.44673395, z: -0.033921957}
+      rotation: {x: 0.0033705563, y: 0.0569152, z: 0.99775064, w: 0.035255313}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightLeg
+      parentName: mixamorig:RightUpLeg
+      position: {x: 0.0000000030049607, y: 1.143811, z: 5.542089e-10}
+      rotation: {x: -0.026653469, y: -0.7889522, z: 0.27487537, w: 0.5488967}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightFoot
+      parentName: mixamorig:RightLeg
+      position: {x: 7.575235e-11, y: 0.14269346, z: 7.524914e-11}
+      rotation: {x: -0.29145554, y: -0.592843, z: 0.51840264, w: -0.54300064}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightToeBase
+      parentName: mixamorig:RightFoot
+      position: {x: 0.000000010412201, y: 1.0724822, z: 0.00000002769281}
+      rotation: {x: 0.33142287, y: 0.03704932, z: -0.013025938, w: 0.9426646}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightToe_End
+      parentName: mixamorig:RightToeBase
+      position: {x: 9.454062e-10, y: 0.47522962, z: 1.4826682e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 5dbcc595613570b4bac0593373b9746a,
+    type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
