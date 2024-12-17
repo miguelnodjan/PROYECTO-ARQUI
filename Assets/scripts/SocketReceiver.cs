@@ -12,6 +12,8 @@ public class SocketReceiver : MonoBehaviour
     private string movementCommand = "stop";  // Movimiento
     private string actionCommand = "stop";    // Acción
 
+    private bool isJumping = false;  // Para controlar el salto
+
     void Start()
     {
         udpClient = new UdpClient(5005);
@@ -39,13 +41,13 @@ public class SocketReceiver : MonoBehaviour
         }
 
         // Controlar el movimiento
-        if (command == "left" || command == "right")
+        if (command == "left" || command == "right" || command == "stop_rotation")
         {
             movementCommand = command;
         }
 
         // Controlar las acciones
-        if (command == "forward" || command == "jump" || command == "stop")
+        if (command == "forward" || command == "jump" || command == "stop" || command == "backward")
         {
             actionCommand = command;
         }
@@ -67,6 +69,9 @@ public class SocketReceiver : MonoBehaviour
                 player.x = 1;
                 player.y = 0;
                 break;
+            case "stop_rotation":
+                player.x = 0;
+                break;
             default:
                 player.x = 0;
                 player.y = 0;
@@ -82,15 +87,29 @@ public class SocketReceiver : MonoBehaviour
                 player.y = 1;  // Mover hacia adelante
                 break;
             case "jump":
-                player.puedoSaltar = true;  // Permitir salto
+                // Asegurarse de que el personaje salte si no está ya saltando
+                if (!isJumping)
+                {
+                    isJumping = true;
+                    player.Saltar();  // Llamada al método de salto de LogicaPersonaje1
+                    Debug.Log("Comando de salto recibido");
+                }
                 break;
             case "stop":
                 player.y = 0;  // Detener movimiento
                 break;
+            case "backward":
+                player.y = -1; // Retroceder
+                break;
             default:
-                player.puedoSaltar = false;  // Detener salto
                 break;
         }
+    }
+
+    // Método para controlar el final del salto (cuando el personaje toca el suelo)
+    public void OnLand()
+    {
+        isJumping = false;
     }
 
     void OnApplicationQuit()
