@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2442D34A-EC00-A6B9-8378-16C62A490939}</ProjectGuid>
+    <ProjectGuid>{0483CFC7-B1FA-206D-D600-ED4DC5074775}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -102,6 +102,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\scripts\LogicaPersonaje1.cs" />
     <Compile Include="Assets\scripts\LogicaPies.cs" />
+    <Compile Include="Assets\scripts\MenuInicial.cs" />
     <Compile Include="Assets\scripts\Script_volumen.cs" />
     <Compile Include="Assets\scripts\SocketReceiver.cs" />
     <Compile Include="Assets\scripts\TestReceiver.cs" />
@@ -131,31 +132,31 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/migue/proyect1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/UNSA/Repositorios/Arqui/PROYECTO_ARQUI/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/migue/proyect1/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/UNSA/Repositorios/Arqui/PROYECTO_ARQUI/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/migue/proyect1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/UNSA/Repositorios/Arqui/PROYECTO_ARQUI/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/migue/proyect1/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/UNSA/Repositorios/Arqui/PROYECTO_ARQUI/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/migue/proyect1/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/UNSA/Repositorios/Arqui/PROYECTO_ARQUI/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/migue/proyect1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/UNSA/Repositorios/Arqui/PROYECTO_ARQUI/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/migue/proyect1/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/UNSA/Repositorios/Arqui/PROYECTO_ARQUI/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/migue/proyect1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/UNSA/Repositorios/Arqui/PROYECTO_ARQUI/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/migue/proyect1/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/UNSA/Repositorios/Arqui/PROYECTO_ARQUI/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
