@@ -103,6 +103,7 @@
     <Compile Include="Assets\scripts\LogicaPersonaje1.cs" />
     <Compile Include="Assets\scripts\LogicaPies.cs" />
     <Compile Include="Assets\scripts\MenuInicial.cs" />
+    <Compile Include="Assets\scripts\MovimientoAleatorio.cs" />
     <Compile Include="Assets\scripts\Script_volumen.cs" />
     <Compile Include="Assets\scripts\SocketReceiver.cs" />
     <Compile Include="Assets\scripts\TestReceiver.cs" />
